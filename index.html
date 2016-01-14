@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shower Presentation Engine</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+  <header class="caption">
+    <h1>Foehn typography</h1>
+    <p>Cédric Aellen, <abbr title="Direction des Systèmes d'Information">DSI</abbr>, <a href="http://wwww.vd.ch">Etat de Vaud</a></p>
+  </header>
+  <section class="slide" id="cover">
+    <h2>Travail typographique</h2>
+    <p>Florence Perret et Cédric Aellen,<br>&Eacute;tat de Vaud</p>
+    <img src="pictures/cover.jpg" alt="" class="cover">
+    <!--
+      To apply styles to the certain slides
+      set slide ID to get needed elements
+      -->
+    <style>
+      #cover h2 {
+        margin:30px 0 0;
+        color:#FFF;
+        text-align:center;
+        font-size:70px;
+        }
+      #cover p {
+        margin:10px 0 0;
+        text-align:center;
+        color:#FFF;
+        font-style:italic;
+        font-size:20px;
+        }
+      #cover p a {
+        color:#FFF;
+         }
+      img.cover {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </section>
+  <section class="slide">
+    <h2>Citations</h2>
+    <blockquote cite="https://ia.net/know-how/the-web-is-all-about-typography-period">
+      <p>
+        Web design is 95% typography
+      </p>
+      <p class="note">&ndash;<cite><a href="https://ia.net/know-how/the-web-is-all-about-typography-period">Olivier Reichenstein</a></cite></p>
+    </blockquote>
+    <blockquote cite="https://ia.net/know-how/the-web-is-all-about-typography-period">
+      <p>
+        90 percent of design is typography. And the other 90 percent is whitespace
+      </p>
+      <p class="note">&ndash;<cite>Jeffrey Zeldman</cite></p>
+    </blockquote>
+  </section>
+  <section class="slide">
+    <h2>Optimiser la typography c’est optimiser:</h2>
+    <ul>
+      <li>la lisibilité</li>
+      <li>l'accessibilité</li>
+      <li>la facilité d'utilisation</li>
+      <li>l'équilibre graphique globale</li>
+    </ul>
+  </section>
+  <section class="slide">
+    <h2>Le texte est une interface utilisateur</h2>
+    <p>
+      Il faut travailler le texte et pas seulement en tant que contenu, il faut le traiter comme une interface utilisateur.
+    </p>
+  </section>
+  <section class="slide">
+    <h2>Lecture</h2>
+    <p>
+      Une police se doit d'être non obstructive. Elle ne doit en aucun cas freiner la lecture du contenu.
+    </p>
+  </section>
+  <section class="slide">
+    <h2>Sélection des polices</h2>
+    <ul>
+      <li>Police system</li>
+      <li>Webfonts
+        <ul>
+          <li>Free</li>
+          <li>Commercial</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Police system</h2>
+    <ul>
+      <li>Pas consistante <br><img src="pictures/futura-fontstack.png" alt="Futura Fontstack" /></li>
+      <li>Utilisé en temps que fallback</li>
+      <li>Priorité sur l'accessibilité</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Graisses</h2>
+    <figure>
+      <img class="place" src="pictures/font-weights.png" alt="" style="max-height: 20rem; width: auto;"/>
+    </figure>
+  </section>
+
+  <section class="slide">
+    <h2>OpenType feature</h2>
+    <ul class="double">
+      <li>Lining figures</li>
+      <li>Proportional figures</li>
+      <li>Subscript</li>
+      <li>Superscript</li>
+      <li>Tabular figure</li>
+      <li>Fractions</li>
+      <li>Small capitals from capitals</li>
+      <li>Case-Sensitive Forms</li>
+      <li>Standard ligatures</li>
+      <li>Historical forms</li>
+      <li>Ordinals</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Processus</h2>
+    <ol>
+      <li>Séléction de polices</li>
+      <li>Tests de lisibilité et d'accessibilité</li>
+      <li>Analyse du style graphique</li>
+
+    </ol>
+  </section>
+
+  <section class="slide">
+    <h2>Font rendering</h2>
+    <figure class="place left" style="padding: 10rem 0
+    0 1rem">
+      <img src="pictures/font-rendering-mac.png" />
+      <figcaption>
+          <a href="pictures/font-rendering-mac.png">Mac</a>
+      </figcaption>
+    </figure>
+    <figure class="place right" style="padding: 10rem 1rem 0 0;">
+      <img src="pictures/font-rendering-win.png" />
+      <figcaption>
+          <a href="pictures/font-rendering-win.png">Windows</a>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="slide">
+    <h2>Lisibilité</h2>
+    <ul class="double" id="legibility">
+      <li><img src="pictures/presbyopia-h1.png" alt="" /></li>
+      <li><img src="pictures/presbyopia-h2.png" alt="" /></li>
+      <li><img src="pictures/presbyopia-h3.png" alt="" /></li>
+      <li><img src="pictures/presbyopia-h4.png" alt="" /></li>
+      <li><img src="pictures/presbyopia-h5.png" alt="" /></li>
+      <li><img src="pictures/presbyopia-h6.png" alt="" /></li>
+    </ul>
+
+    <style media="screen">
+      #legibility li::before {
+        content: "";
+        padding-right: inherit;
+      }
+      #legibility img {
+        max-width:17rem;
+        height: auto;
+      }
+    </style>
+  </section>
+
+  <section class="slide">
+    <h2>Polices retenues</h2>
+    <ul>
+      <li>Meta Condensed et Meta Sans</li>
+      <li>Museo Condensed Sans et Calluna</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Lisibilité</h2>
+    <img src="pictures/cataracte.png" alt="" class="place bottom" style="max-height: 30rem;" />
+  </section>
+
+  <p class="badge">
+    <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+  </p>
+  <!--
+    To hide progress bar from entire presentation
+    just remove “progress” element.
+    -->
+  <div class="progress"></div>
+  <script src="node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
