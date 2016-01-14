@@ -1,0 +1,20 @@
+{
+  "name": "presentation-foehn-typography",
+  "version": "0.0.1",
+  "description": "Presentation on foehn typography",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "presentation",
+    "talk",
+    "slide"
+  ],
+  "author": "Cédric Aellen",
+  "license": "MIT",
+  "dependencies": {
+    "shower-core": "^2.0.1",
+    "shower-ribbon": "^2.0.0"
+  }
+}
