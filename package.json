@@ -16,5 +16,9 @@
   "dependencies": {
     "shower-core": "^2.0.1",
     "shower-ribbon": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-gh-pages": "^1.0.0"
   }
 }
