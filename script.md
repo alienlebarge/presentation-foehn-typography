@@ -2,21 +2,21 @@
 
 Présentation du travail typographique réaliser dans le cadre de la refonte de vd.ch.
 
-## Table des matière
+## Table des matières
 
 - Pourquoi commencer par la typographie
 - Type de police
 	- Police système
 	- Police web ou webfont
-- Processus de séléction
-- Les tests réalisé sur les polices retenues
+- Processus de sélection
+- Les tests réalisés sur les polices retenues
 - Le travail sur les style qui a été fait
-- Quel sont les police que nous recommendons
+- Quelles sont les polices que nous recommandons
 - Prix / Coût
 
 ## Citation
 
-Il est clair que de nos jours le travai sur la typographie doit être pris très en amont lors de l'élaboration d'un design.
+Il est clair que de nos jours la travail sur la typographie doit être pris très en amont lors de l'élaboration d'un design.
 
 Une très grande partie du design repose sur la typographie.
 
@@ -24,7 +24,7 @@ Macro-typography (overall text-structure) in contrast to micro typography (detai
 
 ## Atomic design
 
-## Optimiser la typographie c’est optimiser
+## optimiser la typographie, c’est optimisé
 
 Organizing blocks of text and combining them with pictures, isn’t that what graphic designers, usability specialists, information architects do? So why is it such a neglected topic?
 
@@ -45,25 +45,25 @@ Slightly more famous examples of unornamental websites that treat text as interf
 
 Ne doit pas être un frein.
 
-## Les types de police
+## Les types de polices
 
 2 familles:
 
 1. Police système
-2. Police commercialle
+2. Police commerciale
 
 ## Police système
 
-- Installées sur les périférique (téléphone, tablette, navigateur, etc.)
-- Chaqu'un a ses polices.
-- On ne peut pas assurer de consistance d'un périférique à l'autre.
+- Installées sur les périphériques (téléphone, tablette, navigateur, etc.)
+- Chacun a ses polices.
+- On ne peut pas assurer de consistance d'un périphérique à l'autre.
 
-- On les utilises en temps que fallback
+- On les utilise en temps que fallback
 
 ## Webfonts
 
 - Consistente
-- Doivent être chargées
+- Doivent être chargés
 
 ## Webfonts gratuites
 
@@ -71,11 +71,42 @@ Ne doit pas être un frein.
 	- Google fonts
 	- Font squirel
 	- etc.
-- Commune car les bonnes police sont utilisé par tout le monde
+- Commune, car les bonnes polices sont utilisées par tout le monde
 - Qualité moindre
 
-## Webfonts commercialles
+## Webfonts commerciale
 
 ## Graisses
 
 ## Caractéristiques OpenType
+
+## Processus de sélection
+
+## Mots clefs
+
+Trouver une police qui représente des mots clefs.
+
+## Sondage
+
+Soumis à un sondage du BIC
+
+## Tests
+
+## Mobiles
+
+Nous avons testé que :
+- la police s'affiche correctement sur mobile
+- La taille est adaptée
+
+## Moteur de rendu
+
+- Pas le même moteur de rendu sur Windows et Mac
+- Il faut trouver une police qui s'affiche correctement sur tous les systèmes
+
+## Tests d'accessibilité
+
+- Panel de personnes
+- Tests techniques via des simulations
+- Recommendation
+
+# Style CSS
