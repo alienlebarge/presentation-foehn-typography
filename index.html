@@ -429,65 +429,117 @@
   </section>
 
 
-  <section class="slide">
-    <h2>Prix</h2>
+  <section class="slide" id="price-dev">
+    <h2>Prix dévelopement</h2>
     <table class="striped">
+      <caption>
+        Prix pour 500'000 vues/mois
+      </caption>
       <tr>
           <th>Weight</th>
-          <th><a href="https://www.fontshop.com/families/ff-meta/buy">Meta C.</a></th>
-          <th><a href="https://www.fontshop.com/families/ff-meta-serif/buy">Meta Serif</a></th>
-          <th><a href="http://www.fontspring.com/fonts/exljbris/museo-sans-condensed">Museo C.</a></th>
-          <th><a href="http://www.fontspring.com/fonts/exljbris/calluna">Calluna</a></th>
+          <th class="right"><a href="https://www.fontshop.com/families/ff-meta/buy">Meta C.</a></th>
+          <th class="right"><a href="https://www.fontshop.com/families/ff-meta-serif/buy">Meta Serif</a></th>
+          <th class="right"><a href="http://www.fontspring.com/fonts/exljbris/museo-sans-condensed">Museo C.</a></th>
+          <th class="right"><a href="http://www.fontspring.com/fonts/exljbris/calluna">Calluna</a></th>
       </tr>
       <tr>
           <th scope="row">Normal</th>
-          <td>55 €</td>
-          <td>59 €</td>
-          <td>15 €</td>
-          <td>0 €</td>
+          <td class="right">55 €</td>
+          <td class="right">59 €</td>
+          <td class="right">15 €</td>
+          <td class="right">0 €</td>
       </tr>
       <tr>
           <th scope="row">Normal italic</th>
-          <td>55 €</td>
-          <td>59 €</td>
-          <td>15 €</td>
-          <td>20 €</td>
+          <td class="right">55 €</td>
+          <td class="right">59 €</td>
+          <td class="right">15 €</td>
+          <td class="right">20 €</td>
       </tr>
       <tr>
           <th scope="row">Bold</th>
-          <td>55 €</td>
-          <td>59 €</td>
-          <td>15 €</td>
-          <td>20 €</td>
+          <td class="right">55 €</td>
+          <td class="right">59 €</td>
+          <td class="right">15 €</td>
+          <td class="right">20 €</td>
       </tr>
       <tr>
           <th scope="row">Bold italic</th>
-          <td>55 €</td>
-          <td>59 €</td>
-          <td>15 €</td>
-          <td>20 €</td>
+          <td class="right">55 €</td>
+          <td class="right">59 €</td>
+          <td class="right">15 €</td>
+          <td class="right">20 €</td>
       </tr>
-      <tfoot>
-        <tr>
-            <th scope="row">Total (5 polices)</th>
-            <td><strong>220 €</strong></td>
-            <td><strong>236 €</strong></td>
-            <td><strong>60 €</strong></td>
-            <td><strong>60 €</strong></td>
-        </tr>
-        <tr>
-            <th scope="row">Total (0.5 mio vues)</th>
-            <td colspan="2"><strong>456 €</strong></td>
-            <td colspan="2"><strong>120 €</strong></td>
-        </tr>
-        <tr>
-            <th scope="row">Total (3 mio vues)</th>
-            <td colspan="2"><strong>2736 €</strong></td>
-            <td colspan="2"><strong>480 €</strong></td>
-        </tr>
-      </tfoot>
+      <tr>
+          <th scope="row">Total</th>
+          <td class="right"><strong>220 €</strong></td>
+          <td class="right"><strong>236 €</strong></td>
+          <td class="right"><strong>60 €</strong></td>
+          <td class="right"><strong>60 €</strong></td>
+      </tr>
     </table>
 
+    <style>
+      #price-dev .right {
+        text-align: right;
+      }
+    </style>
+
+  </section>
+
+  <section class="slide" id="price-prod">
+    <h2>Prix production</h2>
+    <table class="striped">
+      <tr>
+          <th>Vues par mois</th>
+          <th class="right"><a href="https://www.fontshop.com/families/ff-meta/buy">Meta C.</a></th>
+          <th class="right"><a href="https://www.fontshop.com/families/ff-meta-serif/buy">Meta Serif</a></th>
+          <th class="right"><a href="http://www.fontspring.com/fonts/exljbris/museo-sans-condensed">Museo C.</a></th>
+          <th class="right"><a href="http://www.fontspring.com/fonts/exljbris/calluna">Calluna</a></th>
+      </tr>
+      <tr>
+          <th scope="row">500'000 (dév.)</th>
+          <td class="right">220 €</td>
+          <td class="right">236 €</td>
+          <td class="right">60 €</td>
+          <td class="right">60 €</td>
+      </tr>
+      <tr>
+          <th scope="row">2'500'000 (à rajouter)</th>
+          <td class="right"><em>+ 1'100 €</em></td>
+          <td class="right"><em>+ 1'180 €</em></td>
+          <td class="right"><em>+ 300 €</em></td>
+          <td class="right"><em>+ 300 €</em></td>
+      </tr>
+      <tr>
+          <th scope="row">3'000'000</th>
+          <td class="right">1'320 €</td>
+          <td class="right">1'416 €</td>
+          <td class="right">360 €</td>
+          <td class="right">360 €</td>
+      </tr>
+      <tr>
+          <th scope="row">&nbsp;</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <th scope="row">Total</th>
+          <td class="right" colspan="2"><strong>2'736 €</strong></td>
+          <td class="right" colspan="2"><strong>720 €</strong></td>
+      </tr>
+    </table>
+    <style>
+      #price-prod .right {
+        text-align: right;
+      }
+      #price-prod em {
+        color: #CE0000;
+        font-style: normal;
+      }
+    </style>
   </section>
 
   <!--
