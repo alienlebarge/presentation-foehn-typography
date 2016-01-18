@@ -1,3 +1,3 @@
 # Presentation Foehn Typography
 
-Short url: [https://git.io/vzWSb]()
+Short url: [http://bit.ly/1JU4uSK]()
